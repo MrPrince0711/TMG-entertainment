@@ -1,0 +1,16 @@
+.foot_section {
+    display: flex;
+    justify-content: center;
+    height: 10vh;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(203, 203, 203, 0.876);
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.insta, .youtube, .linkedIn {
+    height: 50px;
+    margin: 15px;
+}

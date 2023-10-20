@@ -1,0 +1,107 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.876);
+    position: sticky;
+    z-index: 100;
+    top: 0;
+}
+
+.nav_logo {
+    height: 100px;
+    margin-left: 20px;
+    object-fit: contain;
+}
+
+.navbar_menu > div {
+    display: flex;
+    margin-right: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgba(255, 255, 255, 0.876);
+}
+
+
+
+
+.team_nav, .port_nav {
+    padding: 10px;
+    color: #DC143C;
+}
+
+.team_nav :hover, .port_nav :hover {
+    cursor: pointer;
+
+}
+
+.contact_nav {
+    padding: 10px;
+    background-color: #DC143C;
+    color: white;
+}
+
+.contact_nav {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    position: absolute;
+    top: 0.75rem;
+    right: 0.5rem;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 2rem;
+    width: 2rem;
+}
+
+.burger {
+    height: 0.4rem;
+    width: 100%;
+    background-color: red;
+    
+
+}
+
+@media (max-width: 780px) {
+    .nav_logo {
+        height: 75px;
+    }
+
+    .menu {
+        display: flex;
+        margin: 20px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .navbar_menu{
+        width: 100%;
+    }
+
+    .navbar_menu > div {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 0.25rem;
+        text-align: center;
+    }
+
+    div.open {
+        display: flex;
+    }
+
+    .contact_nav {
+        background-color: inherit;
+        color: #DC143C;
+    }
+}

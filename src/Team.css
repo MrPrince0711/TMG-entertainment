@@ -1,0 +1,43 @@
+.meet_team {
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.team_img {
+    height: 20rem;
+    object-fit: cover;
+    box-shadow: 2.5px 2.5px 2.5px rgba(0, 0, 0, 0.5);
+    margin-right: 30px;
+}
+
+.team_name {
+    margin-bottom: 6px;
+    margin-top: 5px;
+    color: red;
+    font-size: 28px;
+}
+
+.team_descrpt, .anecdote {
+    font-size: 20px;
+    margin-top: 8px;
+    text-align-last: left;
+}
+
+.team_role {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 780px) {
+    .meet_team {
+        flex-direction: column;
+    }
+
+    .team_img {
+        object-fit: contain;
+        box-shadow: none;
+    }
+}

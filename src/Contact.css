@@ -1,0 +1,32 @@
+.contact {
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px;    
+    background-color: rgb(217, 174, 174);
+}
+
+.social_app {
+    margin-top: 10px;
+    display: flex;
+}
+
+.social_icon {
+    height: 40px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+.social_handle {
+    align-items: center;
+    font-size: 30px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+@media (max-width: 780px) {
+    .social_handle {
+        font-size: 24px;
+    }
+}
