@@ -68,16 +68,21 @@
 }
 
 @media (max-width: 780px) {
+.main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
+.aboutUs_content {
+        margin-left: 8px;
+        margin-right: 8px;
+    }
 
 .about_title, .services_title {
         margin-top: 10px;
     }
 
-.aboutUs_content {
-    margin-left: 20px;
-    margin-right: 20px;
-}
+
 
 .aboutUs_text {
         font-size: 20px;
