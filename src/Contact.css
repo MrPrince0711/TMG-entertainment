@@ -29,4 +29,15 @@
     .social_handle {
         font-size: 24px;
     }
+    .contact {
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .social_handle {
+        font-size: 18px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
 }
