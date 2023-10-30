@@ -23,3 +23,9 @@
     mask-image: linear-gradient( rgba(0, 0, 0, 1), transparent);
 }
 
+@media (max-width: 780px) {
+    .mission_statement {
+        font-size: 26px;
+    }
+}
+
