@@ -25,7 +25,9 @@
 
 @media (max-width: 780px) {
     .mission_statement {
-        font-size: 26px;
+        font-size: 2rem;
+        margin-top: 10px;
+        margin-bottom: 8px;
     }
 }
 

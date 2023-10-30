@@ -69,11 +69,11 @@
 
 @media (max-width: 780px) {
 
-    .about_title, .services_title {
+.about_title, .services_title {
         margin-top: 10px;
     }
 
-    .aboutUs_text {
+.aboutUs_text {
         font-size: 20px;
     }
 .production, .marketing {
